@@ -131,7 +131,7 @@ h1.nav__text{
 }
 
 button.nav__button{
-    width: auto;
+    width: 150px;
     height: 50px;
     padding: 9px 21px;
     background: #22A45A;
@@ -612,7 +612,7 @@ h2{
 
 .ourlatestpost{
     width: 100%;
-    height: 1340px;
+    height: 1320px;
     padding-top: 380px;
     background: #00353B;
 }
@@ -638,7 +638,8 @@ h2{
 }
 
 button.ourbutton{
-    padding: 13px 35px;
+    width: 150px;
+    padding: 13px 25px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
@@ -695,3 +696,136 @@ h5.box-in{
     padding-left: 24px;
 }
 
+.start-learning{
+    width: 100%;
+    height: 433px;
+    background: #00353B;
+    display: flex;
+    flex-direction: column;
+    padding: 123px;
+    gap: 30px;
+    align-items: center;
+}
+
+.learning__text{
+    width: 730px;
+    text-align: center;
+}
+
+
+.learning__items{
+    display: flex;
+    gap: 16px;
+    margin-top: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 641px;
+    background: #00353B;
+    padding-top: 80px;
+}
+
+.footer__top{
+     width: 100%;
+     justify-content: center;
+     display: flex;
+     gap: 50px;
+}
+
+
+
+.top-first{
+    width: 380px ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 80px;
+    gap: 23px;
+}
+
+p.blue{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p.small{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.first-in{
+    display: flex;
+}
+
+p.ss{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+input{
+    width: 280px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+p.smaller{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.top-second{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 80px;
+}
+
+.footer__text{
+
+}
+
+.footer__site{
+   display: flex;
+   gap: 8px;
+}
+
+.border{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.border_in{
+    width: 1280px;
+     border: 2px solid  rgba(255, 255, 255, 0.08);;
+     margin-top: 88px;
+}
